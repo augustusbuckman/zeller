@@ -13,7 +13,7 @@
 
 def main():
 
-    #You codes goes here
+    pass # Replace this line with all of your code
 
 
 if __name__ == "__main__":
