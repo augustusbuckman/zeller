@@ -7,7 +7,6 @@ from tud_test_base import *
 def test_zeller():
     try:
         exist = os.path.exists("zeller.py")
-
         assert exist == True
     except:
         sys.exit()
