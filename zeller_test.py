@@ -4,17 +4,15 @@ from unittest import TestCase
 
 from zeller import main
 from tud_test_base import *
-
 def test_zeller():
     try:
-        exists = os.path.exists("zeller.py")
-        assert exists == True
+        exist = os.path.exists("zeller.py")
+
+        assert exist == True
     except:
         sys.exit()
 
-    set_keyboard_input(['April'])
-    set_keyboard_input([1])
-    set_keyboard_input([1999])
+    set_keyboard_input(['April',1,1999])
     main()
     output = get_display_output()
     assert output == [
