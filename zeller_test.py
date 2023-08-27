@@ -2,7 +2,7 @@ import os.path
 import sys
 from unittest import TestCase
 
-from easter_date import main
+from zeller import main
 from tud_test_base import *
 
 def test_zeller():
